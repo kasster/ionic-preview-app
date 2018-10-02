@@ -11,7 +11,7 @@ export class ConfirmPage {
   constructor(public alerCtrl: AlertController) { }
 
   doConfirm() {
-    let confirm = this.alerCtrl.create({
+    let confirm = this.alertCtrl.create({
       title: 'Use this lightsaber?',
       message: 'Do you agree to use this lightsaber to do good across the intergalactic galaxy?',
       buttons: [
